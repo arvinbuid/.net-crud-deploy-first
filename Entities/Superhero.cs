@@ -1,5 +1,6 @@
 ﻿namespace DotnetWebAPItesting.Entities
 {
+    // Model
     public class Superhero
     {
         public int Id { get; set; }

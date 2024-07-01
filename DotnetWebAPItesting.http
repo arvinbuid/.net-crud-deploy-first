@@ -1,0 +1,19 @@
+@DotnetWebAPItesting_HostAddress = https://localhost:7060
+
+GET {{DotnetWebAPItesting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DotnetWebAPItesting_HostAddress}}/api/superhero
+
+###
+
+POST {{DotnetWebAPItesting_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //Superhero
+}
+
+###
